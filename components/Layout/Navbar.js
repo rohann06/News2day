@@ -21,11 +21,11 @@ const Navbar = () => {
               required
               autoComplete="on"
               placeholder="Search recipes"
-              className=" w-[250px] lg:w-[400px] flex border-4 border-blue-900 rounded-l-full p-[5px] px-6 lg:p-3 lg:px-6"
+              className=" w-[200px] lg:w-[500px] flex border-4 border-blue-900 rounded-l-full p-[5px] px-6 lg:p-3 lg:px-6"
             />
             <button
               type="submit"
-              className=" bg-blue-900  text-orange-500  font-bold lg:font-extrabold rounded-r-full p-[5px] px-5 lg:p-3 lg:px-7 lg:text-lg"
+              className=" bg-blue-900  text-orange-500  font-bold lg:font-extrabold rounded-r-full p-[5px] px-2 lg:p-3 lg:px-7 lg:text-lg"
             >
               Search
             </button>

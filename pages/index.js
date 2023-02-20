@@ -1,4 +1,6 @@
+/* eslint-disable react/no-unescaped-entities */
 import Head from "next/head";
+import Herosection from "../components/Herosection";
 
 export default function Home() {
   return (
@@ -10,7 +12,9 @@ export default function Home() {
       </Head>
 
       <main>
-        <div>Rohan</div>
+        <div className="">
+          <Herosection/>
+        </div>
       </main>
     </div>
   );
