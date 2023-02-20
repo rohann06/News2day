@@ -14,8 +14,6 @@ const Herosection = () => {
     setBusinessNews(data.articles);
   };
 
-  const child = { width: `300em`, height: `100%` };
-
   useEffect(() => {
     getHeroSection();
   }, []);
@@ -23,7 +21,7 @@ const Herosection = () => {
   return (
     <div className=" mt-10">
       <h2 className=" text-xl lg:text-4xl font-bold italic mb-5">
-        Today's Head lines
+        Today's Head lines:
       </h2>
 
       <div className="grid grid-cols-1 gap-y-5 lg:gap-14 lg:grid-cols-3">
