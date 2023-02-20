@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <div className=" text-center mb-5">
+    <div className=" text-center my-5">
       <h4 className=" font-light text-slate-500">
         Made with💖by{" "}
         <a

@@ -2,16 +2,18 @@ import React from "react";
 
 function Card({ image, title, date }) {
   return (
-    <div className=" rounded-lg">
-      <div class=" grid gap-5 rounded-lg shadow-lg bg-white max-w-sm p-3">
-
+    <div className="flex justify-center scale-100 hover:scale-105 duration-300">
+      <div className="rounded-lg shadow-lg bg-white max-w-sm">
         <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
-          <img class="" src={image} alt="News cover"  className=" rounded-t-lg w-full aspect-video object-cover"/>
+          <img
+            className="rounded-t-lg lg:w-full aspect-video object-cover"
+            src={image}
+            alt=""
+          />
         </a>
-
-        <div>
-          <h5 class="text-gray-900 text-xl font-medium ">{title}</h5>
-          <p>{date}</p>
+        <div className="p-6">
+          <h5 className="text-gray-900 text-xl font-medium mb-2">{title}</h5>
+          <p className="text-gray-500 text-sm font-semibold">{date}</p>
         </div>
       </div>
     </div>

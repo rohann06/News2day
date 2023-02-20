@@ -11,7 +11,6 @@ const Herosection = () => {
       `https://newsapi.org/v2/top-headlines?category=business&apiKey=${key}&language=en`
     );
     const data = await api.json();
-    console.log(data);
     setBusinessNews(data.articles);
   };
 
@@ -22,15 +21,15 @@ const Herosection = () => {
   }, []);
 
   return (
-    <div className=" mt-20">
-      <h2 className=" text-xl lg:text-4xl font-bold italic">
-        World's Business News
+    <div className=" mt-10">
+      <h2 className=" text-xl lg:text-4xl font-bold italic mb-5">
+        Today's Head lines
       </h2>
 
-      <div className=" grid grid-flow-col auto-cols-[29%] gap-20 overflow-x-auto overscroll-x-contain">
+      <div className="grid grid-cols-1 gap-y-5 lg:gap-14 lg:grid-cols-3">
         {businessNews.map((news) => {
           return (
-            <div key={news.id} style={child}>
+            <div key={news.id}>
               <Card
                 title={news.title}
                 image={news.urlToImage}
