@@ -20,6 +20,7 @@ export const Countries = () => {
             className=" lg:h-20 lg:w-20 "
             height={65}
             width={65}
+            alt="contry"
           />
           <p className=" m-2">India</p>
         </div>
@@ -32,6 +33,8 @@ export const Countries = () => {
             className=" lg:h-20 lg:w-20 "
             height={65}
             width={65}
+            alt="contry"
+
           />
           <p className=" m-2">U.S</p>
         </div>
@@ -44,6 +47,7 @@ export const Countries = () => {
             className=" lg:h-20 lg:w-20 "
             height={65}
             width={65}
+            alt="contry"
           />
           <p className=" m-2">U.S</p>
         </div>
@@ -56,6 +60,7 @@ export const Countries = () => {
             className=" lg:h-20 lg:w-20 "
             height={65}
             width={65}
+            alt="contry"
           />
           <p className=" m-2">UAE</p>
         </div>

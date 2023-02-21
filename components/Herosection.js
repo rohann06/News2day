@@ -25,9 +25,9 @@ const Herosection = () => {
       </h2>
 
       <div className="grid grid-cols-1 gap-y-5 lg:gap-14 lg:grid-cols-3">
-        {businessNews.map((news) => {
+        {businessNews.map((news, index) => {
           return (
-            <div key={news.id}>
+            <div key={index}>
               <Card
                 title={news.title}
                 image={news.urlToImage}
