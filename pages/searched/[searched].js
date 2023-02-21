@@ -28,12 +28,14 @@ const Searched = () => {
     <div>
         <h1 className=" text-xl lg:text-4xl font-bold italic mb-5">{searched} head Lines:  </h1>
       <div className="grid grid-cols-1 gap-y-5 lg:gap-14 lg:grid-cols-3">
-        {result.map((results) => {
+        {result.map((results,index) => {
           return (
             <div key={results.id}>
               <Card
+                id={index}
                 title={results.title}
                 image={results.urlToImage}
+                description={results.description}
                 date={results.publishedAt}
               />
             </div>

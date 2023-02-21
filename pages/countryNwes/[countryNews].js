@@ -27,12 +27,14 @@ const CountryNews = () => {
     <div>
       <h1 className=" text-xl lg:text-4xl font-bold italic mb-5">{countryNews} head lines: </h1>
        <div className="grid grid-cols-1 gap-y-5 lg:gap-14 lg:grid-cols-3">
-        {news.map((newses) => {
+        {news.map((newses,index) => {
           return (
             <div key={newses.id}>
               <Card
+                id={index}
                 title={newses.title}
                 image={newses.urlToImage}
+                description={newses.description}
                 date={newses.publishedAt}
               />
             </div>

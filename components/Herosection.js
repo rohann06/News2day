@@ -31,6 +31,7 @@ const Herosection = () => {
               <Card
                 title={news.title}
                 image={news.urlToImage}
+                description={news.description}
                 date={news.publishedAt}
               />
             </div>
