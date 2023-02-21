@@ -8,10 +8,10 @@ const Herosection = () => {
   const getHeroSection = async () => {
     const key = process.env.NEXT_PUBLIC_API_KEY;
     const api = await fetch(
-      `https://newsapi.org/v2/top-headlines?category=business&apiKey=${key}&language=en`
+      `https://newsdata.io/api/1/news?apikey=${key}&language=en&category=business`
     );
     const data = await api.json();
-    setBusinessNews(data.articles);
+    setBusinessNews(data.results);
   };
 
   useEffect(() => {
@@ -30,9 +30,9 @@ const Herosection = () => {
             <div key={index}>
               <Card
                 title={news.title}
-                image={news.urlToImage}
+                image={news.image_url}
                 description={news.description}
-                date={news.publishedAt}
+                date={news.pubDate}
               />
             </div>
           );

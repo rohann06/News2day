@@ -49,7 +49,7 @@ export const Countries = () => {
             width={65}
             alt="contry"
           />
-          <p className=" m-2">U.S</p>
+          <p className=" m-2">canada</p>
         </div>
       </button>
 
