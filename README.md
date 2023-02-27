@@ -1,34 +1,26 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# News2day 📰
+#### It's a news website in which the landing page of the website is showes business news headlines and I can read the latest news of 4 major countries also I can search for any type of news I want to read
 
-## Getting Started
+#### The intension behind this project was personal I did this project for myself and also to learn working with API.
 
-First, run the development server:
+## Live application
+[![Already deployed version](https://vercel.com/button)](https://news2day.vercel.app/)
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Technologies used
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+I've used ![newsdata.io](https://newsdata.io/) to get the news API, there are some libraries and frameworks I've used as bellow 
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+- **NextJs**
+- **Tailwind css**
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Functionality
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+there is a hero page which contains all the breaking news head lines around the workd.
+also there are 4 countrie flag by clicking on them user can see the top news head lines from that particular country, also user can search the news topic in the search bar which is on the top 
 
-## Learn More
+the website is fully responsive
 
-To learn more about Next.js, take a look at the following resources:
+![image](https://user-images.githubusercontent.com/75326769/221491003-f8064e4a-4b8c-4757-902d-58f5d5122705.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
